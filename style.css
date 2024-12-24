@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: poppins;
 }
@@ -7,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(45deg, #f8fafc, #bcccdc);
+  background-image: radial-gradient(ellipse, #f8fafc, #bcccdc, #9aa6b2);
   color: white;
   height: 100vh;
 }
@@ -35,6 +36,7 @@
   font-size: 1.3rem;
   text-align: center;
   line-height: 22px;
+  letter-spacing: 2px;
 }
 .count {
   height: 40%;
@@ -45,6 +47,11 @@
   margin-top: -40px;
   font-size: 1.4rem;
   color: #f8fafccb;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.refresh:hover {
+  opacity: 0.8;
 }
 .buttons {
   display: flex;
@@ -53,11 +60,25 @@
   background-color: #9aa6b2;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor: pointer;
 }
 .min,
 .plus {
   width: 50%;
   height: 100%;
+  transition: all 0.3s;
+}
+.min:hover {
+  opacity: 0.8;
+  background-color: #f8fafc;
+  color: #bcccdc;
+  border-bottom-left-radius: 10px;
+}
+.plus:hover {
+  opacity: 0.8;
+  background-color: #f8fafc;
+  color: #bcccdc;
+  border-bottom-right-radius: 10px;
 }
 .min {
   border-right: 1px solid #bcccdc;
