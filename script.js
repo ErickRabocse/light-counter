@@ -25,8 +25,12 @@ const add = () => {
   }
 }
 const reload = () => {
-  window.location.reload()
+  // window.location.reload()
+  count.textContent = 0
+  main.style.backgroundColor = '#bcccdc'
+  alert.innerHTML = `LIGHT <br> COUNTER`
 }
 min.addEventListener('click', substract)
+document.addEventListener('keydown', add)
 plus.addEventListener('click', add)
 refresh.addEventListener('click', reload)
