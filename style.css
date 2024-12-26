@@ -89,14 +89,14 @@
 @media (max-width: 420px) or (max-height: 730px) {
   html,
   .body {
-    height: 100%;
+    height: -webkit-fill-available;
   }
   .main {
     width: 100vw;
     height: 100vh;
-    min-height: 100%;
+    height: -webkit-fill-available;
     border-radius: 0%;
-    color: pink;
+    color: yellow;
   }
   .buttons {
     border-radius: 0%;
