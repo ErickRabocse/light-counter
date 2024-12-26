@@ -87,11 +87,12 @@
 }
 
 @media (max-width: 420px) or (max-height: 730px) {
-  html {
+  html, .body {
     height: -webkit-fill-available;
   }
   .main {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     height: -webkit-fill-available;
     border-radius: 0%;
   }
