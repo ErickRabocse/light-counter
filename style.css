@@ -4,10 +4,7 @@
   box-sizing: border-box;
   font-family: poppins;
 }
-html,
-.body {
-  height: -webkit-fill-available;
-}
+
 .parent {
   display: flex;
   justify-content: center;
@@ -113,7 +110,8 @@ html,
   .plus {
     font-size: 3rem;
   }
-  .parent {
+  html,
+  .body {
     height: -webkit-fill-available;
   }
 }
