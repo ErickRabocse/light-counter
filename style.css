@@ -89,16 +89,15 @@
 @media (max-width: 420px) or (max-height: 730px) {
   html,
   body,
-  .parent,
-  .main {
+  .parent {
     height: -webkit-fill-available;
   }
   .main {
     width: 100vw;
     height: 100vh;
-    /* height: -webkit-fill-available; */
+    height: -webkit-fill-available;
     border-radius: 0%;
-    background-color: red;
+    background-color: purple;
   }
   .buttons {
     border-radius: 0%;
