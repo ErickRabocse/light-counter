@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+html,
+.body {
+  height: -webkit-fill-available;
+}
 .parent {
   display: flex;
   justify-content: center;
@@ -11,6 +15,7 @@
   background-image: radial-gradient(ellipse, #f8fafc, #bcccdc);
   color: white;
   height: 100vh;
+  /* height: -webkit-fill-available; */
 }
 
 .main {
