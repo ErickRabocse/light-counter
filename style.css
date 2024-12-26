@@ -98,16 +98,18 @@
     height: 100vh;
     /* height: -webkit-fill-available; */
     border-radius: 0%;
-    background-color: pink;
+    background-color: red;
   }
   .buttons {
     border-radius: 0%;
     margin-top: auto;
+    flex: 2;
   }
   .alert {
     margin-top: 30px;
     font-size: 1.6rem;
     line-height: 30px;
+    flex: 2;
   }
   .refresh {
     font-size: 2rem;
