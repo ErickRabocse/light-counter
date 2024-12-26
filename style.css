@@ -113,4 +113,7 @@ html,
   .plus {
     font-size: 3rem;
   }
+  .parent {
+    height: -webkit-fill-available;
+  }
 }
