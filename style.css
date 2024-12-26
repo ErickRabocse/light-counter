@@ -97,7 +97,6 @@
     height: 100vh;
     height: -webkit-fill-available;
     border-radius: 0%;
-    color: yellow;
     background-color: orange;
   }
   .buttons {
@@ -114,6 +113,7 @@
   }
   .count {
     font-size: 11rem;
+    flex: 4;
   }
   .min,
   .plus {
