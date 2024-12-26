@@ -111,11 +111,11 @@
   }
   .refresh {
     font-size: 2rem;
-    flex: 1;
+    flex: 2;
   }
   .count {
     font-size: 11rem;
-    flex: 5;
+    flex: 4;
   }
   .min,
   .plus {
