@@ -97,6 +97,7 @@
     height: -webkit-fill-available;
     border-radius: 0%;
     color: yellow;
+    background-color: blue;
   }
   .buttons {
     border-radius: 0%;
