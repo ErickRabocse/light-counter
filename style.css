@@ -45,7 +45,7 @@
   font-size: 9rem;
 }
 .refresh {
-  height: 30%;
+  height: 20%;
   margin-top: -40px;
   font-size: 1.4rem;
   color: #f8fafccb;
@@ -89,14 +89,14 @@
 @media (max-width: 420px) or (max-height: 730px) {
   html,
   .body {
-    height: -webkit-fill-available;
+    height: 100%;
   }
   .main {
     width: 100vw;
     height: 100vh;
-    height: -webkit-fill-available;
+    min-height: 100%;
     border-radius: 0%;
-    color: yellow;
+    color: pink;
   }
   .buttons {
     border-radius: 0%;
