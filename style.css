@@ -89,15 +89,16 @@
 @media (max-width: 420px) or (max-height: 730px) {
   html,
   body,
-  .parent {
+  .parent,
+  .main {
     height: -webkit-fill-available;
   }
   .main {
     width: 100vw;
     height: 100vh;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
     border-radius: 0%;
-    background-color: orange;
+    background-color: pink;
   }
   .buttons {
     border-radius: 0%;
@@ -110,6 +111,7 @@
   }
   .refresh {
     font-size: 2rem;
+    flex: 2;
   }
   .count {
     font-size: 11rem;
